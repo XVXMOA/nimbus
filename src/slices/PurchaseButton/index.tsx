@@ -13,7 +13,6 @@ import clsx from "clsx";
 import { LuChevronRight, LuLoader } from "react-icons/lu";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { checkout } from "@/checkout";
 
 gsap.registerPlugin(useGSAP);
 
@@ -33,7 +32,8 @@ const PurchaseButton: FC<PurchaseButtonProps> = ({ slice }) => {
 
   const handlePurchaseClick = async () => {
     setIsPressed(true);
-    await checkout();
+    // Purchase functionality removed
+    alert("Purchase functionality has been disabled.");
     setIsPressed(false);
   };
 

@@ -15,7 +15,6 @@ import {
 } from "@radix-ui/react-dialog";
 import { Logo } from "./Logo";
 import clsx from "clsx";
-import { checkout } from "@/checkout";
 
 const DialogContext = createContext<
   [open: boolean, setOpen: (open: boolean) => void]
@@ -28,7 +27,8 @@ export function Navbar() {
 
   async function handleCheckout() {
     if (button.current) button.current.disabled = true;
-    await checkout();
+    // Purchase functionality removed
+    alert("Purchase functionality has been disabled.");
     if (button.current) button.current.disabled = false;
   }
 
