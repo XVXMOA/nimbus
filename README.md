@@ -54,21 +54,6 @@ You can start editing the page by modifying `src/app/page.tsx`. The page auto-up
 - `src/slices/` - Prismic slice components
 - `src/lib/` - Utility functions and configurations
 
-## Deployment
-
-This project is designed to be deployed on modern hosting platforms:
-
-### Netlify (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Netlify
-3. Netlify will auto-detect Next.js and configure the build settings
-4. Deploy!
-
-### Vercel
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
 ## Learn More
 
 To learn more about the technologies used:
@@ -81,4 +66,4 @@ To learn more about the technologies used:
 
 ---
 
-**Created with ❤️ by Saleh**
+**Created by Saleh**
