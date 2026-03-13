@@ -3,6 +3,8 @@ import React, { useRef, forwardRef, useImperativeHandle } from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
 import { GLTF } from "three-stdlib";
 
+// 3D Keyboard component using Three.js and React Three Fiber
+
 type GLTFResult = GLTF & {
   nodes: {
     Plate: THREE.Mesh;
