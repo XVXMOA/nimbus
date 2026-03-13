@@ -1,4 +1,5 @@
 "use client";
+// Navbar component for site navigation
 
 import { useRef, useState, createContext, useContext } from "react";
 import Link from "next/link";
