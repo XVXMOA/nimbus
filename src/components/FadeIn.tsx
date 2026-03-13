@@ -1,5 +1,6 @@
 "use client";
 // FadeIn animation component with GSAP and ScrollTrigger
+// Test comment for git tracking
 
 import { useGSAP } from "@gsap/react";
 import clsx from "clsx";
