@@ -2,6 +2,8 @@ import * as THREE from "three";
 import { Float, useGLTF, useTexture } from "@react-three/drei";
 import { GLTF } from "three-stdlib";
 
+// 3D Keycap component with floating animation and texture support
+
 type KeycapProps = {
   position?: [number, number, number];
   rotation?: [number, number, number];
