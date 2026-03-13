@@ -6,6 +6,7 @@ import { SliceZone } from "@prismicio/react";
 import { createClient } from "@/prismicio";
 import { components } from "@/slices";
 
+// Homepage component - renders the main page with Prismic slices
 export default async function Page() {
   const client = createClient();
   const page = await client.getSingle("homepage").catch(() => notFound());
