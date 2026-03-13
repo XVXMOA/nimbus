@@ -1,4 +1,4 @@
-# Nimbus Keyboards
+# Nimbus Keyboards v0.1.1
 
 A premium keyboard showcase website built with Next.js, featuring 3D visualizations and modern web technologies.
 
