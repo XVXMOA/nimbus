@@ -1,3 +1,4 @@
+// BentoBox slice component
 import { FC } from "react";
 import { asText, Content } from "@prismicio/client";
 import {
