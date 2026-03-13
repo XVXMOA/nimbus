@@ -1,4 +1,5 @@
 "use client";
+// Animated loader component with GSAP animations
 
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
