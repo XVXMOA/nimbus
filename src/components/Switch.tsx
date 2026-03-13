@@ -5,6 +5,8 @@ import { GLTF } from "three-stdlib";
 import { ThreeEvent } from "@react-three/fiber";
 import gsap from "gsap";
 
+// 3D Switch component with sound effects and interactions
+
 export const SOUND_MAP = {
   red: ["/sounds/red-1.mp3", "/sounds/red-2.mp3", "/sounds/red-3.mp3"],
   brown: ["/sounds/brown-1.mp3", "/sounds/brown-2.mp3", "/sounds/brown-3.mp3"],
