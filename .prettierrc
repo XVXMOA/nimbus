@@ -1,3 +1,4 @@
 {
+  // Prettier configuration with Tailwind CSS plugin
   "plugins": ["prettier-plugin-tailwindcss"]
 }
