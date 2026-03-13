@@ -1,3 +1,4 @@
+// Nimbus LogoMark SVG component - circular logo icon
 export function LogoMark(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
