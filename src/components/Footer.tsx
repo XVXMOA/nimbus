@@ -19,7 +19,7 @@ export function Footer() {
         
         <div className="flex items-center">
           <p className="text-sm text-gray-400">
-            made by saleh
+            made by saleh with ❤️
           </p>
         </div>
         
