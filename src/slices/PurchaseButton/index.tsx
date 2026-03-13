@@ -32,7 +32,6 @@ const PurchaseButton: FC<PurchaseButtonProps> = ({ slice }) => {
 
   const handlePurchaseClick = async () => {
     setIsPressed(true);
-    // Purchase functionality removed
     alert("Purchase functionality has been disabled.");
     setIsPressed(false);
   };
@@ -48,8 +47,8 @@ const PurchaseButton: FC<PurchaseButtonProps> = ({ slice }) => {
 
       const normalizedX = Math.max(0, Math.min(1, mouseX / buttonWidth));
 
-      const newWdth = 120 - normalizedX * 70; // 120 = thinner, 50 = wider
-      const newWght = 700 + normalizedX * 300; // 700 = lighter, 1000 = bolder
+      const newWdth = 120 - normalizedX * 70;
+      const newWght = 700 + normalizedX * 300;
 
       gsap.to(textRef.current, {
         "--wdth": newWdth,
