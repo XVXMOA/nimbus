@@ -1,3 +1,4 @@
+// Slice simulator page for development
 import {
   SliceSimulator,
   SliceSimulatorParams,

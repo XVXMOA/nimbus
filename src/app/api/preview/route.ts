@@ -1,3 +1,4 @@
+// Preview API route for Prismic
 import { NextRequest } from "next/server";
 import { redirectToPreviewURL } from "@prismicio/next";
 

@@ -1,3 +1,4 @@
+// Revalidate cache API route
 import { NextResponse } from "next/server";
 import { revalidateTag } from "next/cache";
 

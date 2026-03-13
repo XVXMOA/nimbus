@@ -1,4 +1,5 @@
 "use client";
+// Switch playground interactive component
 
 import { FC } from "react";
 import { Content, isFilled } from "@prismicio/client";

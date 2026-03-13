@@ -1,3 +1,4 @@
+// Marquee scrolling component
 import { FC, Fragment } from "react";
 import { Content } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";

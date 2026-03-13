@@ -1,4 +1,5 @@
 "use client";
+// ColorChanger 3D scene component
 
 import { Keyboard } from "@/components/Keyboard";
 import { Stage, useTexture } from "@react-three/drei";

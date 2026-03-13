@@ -1,4 +1,5 @@
 "use client";
+// Hero section with 3D keyboard animation
 
 import { FC, useEffect, useState } from "react";
 import { Content } from "@prismicio/client";
