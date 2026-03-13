@@ -1,6 +1,8 @@
 import { ReactNode } from "react";
 import clsx from "clsx";
 
+// Bounded component for consistent section layouts with padding
+
 type BoundedProps = {
   as?: "section" | "footer";
   fullWidth?: boolean;
