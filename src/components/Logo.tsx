@@ -1,3 +1,4 @@
+// Nimbus Logo SVG component
 export function Logo(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
